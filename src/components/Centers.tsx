@@ -96,14 +96,14 @@ export default function Centers() {
             </span>
             <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-emerald-400">
-              d'Anglais
+              d&apos;Anglais
             </span>
           </h2>
 
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
             Découvrez nos centres modernes répartis dans tout le Maroc, 
             <span className="text-blue-400 font-semibold"> chacun équipé </span>
-            des dernières technologies d'apprentissage
+            des dernières technologies d&apos;apprentissage
           </p>
         </div>
 
@@ -179,7 +179,7 @@ export default function Centers() {
         {/* Bottom CTA */}
         <div className="text-center mt-20 animate-on-scroll">
           <div className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-500/10 to-purple-500/10 backdrop-blur-xl rounded-2xl border border-blue-500/20">
-            <span className="text-gray-300 mr-3">Besoin d'aide pour choisir ?</span>
+            <span className="text-gray-300 mr-3">Besoin d&apos;aide pour choisir ?</span>
             <button className="px-6 py-2 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-xl font-semibold text-white hover:scale-105 transition-transform duration-300">
               Contactez-nous
             </button>

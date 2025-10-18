@@ -80,7 +80,7 @@ export default function About() {
                 <span className="text-white">Votre Avenir</span>
                 <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400">
-                  Aujourd'hui
+                  Aujourd&apos;hui
                 </span>
               </h2>
 
@@ -88,9 +88,9 @@ export default function About() {
               <div className="relative">
                 <div className="absolute -left-4 top-0 w-1 h-full bg-gradient-to-b from-cyan-400 to-purple-500 rounded-full"></div>
                 <p className="text-xl lg:text-2xl text-white font-bold leading-relaxed pl-8">
-                  Ne restez plus dans l'ombre. 
+                  Ne restez plus dans l&apos;ombre. 
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400"> 
-                    Maîtrisez l'anglais
+                    Maîtrisez l&apos;anglais
                   </span> et 
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
                     dominez votre secteur.
@@ -115,7 +115,7 @@ export default function About() {
                 {/* Floating Stats */}
                 <div className="absolute bottom-6 left-6 bg-white/10 backdrop-blur-xl rounded-2xl p-4 border border-white/20">
                   <div className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400">15+</div>
-                  <div className="text-sm text-gray-300 font-semibold">Années d'Excellence</div>
+                  <div className="text-sm text-gray-300 font-semibold">Années d&apos;Excellence</div>
                 </div>
 
                 <div className="absolute top-6 right-6 bg-gradient-to-r from-emerald-500 to-teal-600 rounded-2xl p-3 border border-white/20">
@@ -155,8 +155,8 @@ export default function About() {
               <p className="text-lg text-gray-300 leading-relaxed mb-4">
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400 font-black text-xl">
                   American Workshop
-                </span> n'est pas juste un centre d'anglais. 
-                C'est votre <span className="text-cyan-400 font-semibold">tremplin vers le succès international</span>.
+                </span> n&apos;est pas juste un centre d&apos;anglais. 
+                C&apos;est votre <span className="text-cyan-400 font-semibold">tremplin vers le succès international</span>.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
                 Depuis 15 ans, nous créons des <span className="text-purple-400 font-semibold">success stories extraordinaires</span>. 

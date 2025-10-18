@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export default function Exams() {
   return (
     <section id="examens" className="py-20 bg-gradient-to-br from-slate-950 via-slate-900 to-black relative overflow-hidden">
@@ -25,7 +23,7 @@ export default function Exams() {
             </span>
           </h2>
           <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
-            Ouvrez-vous toutes les portes à l'international en obtenant le meilleur score possible aux tests 
+            Ouvrez-vous toutes les portes à l&apos;international en obtenant le meilleur score possible aux tests 
             de certification reconnus mondialement
           </p>
         </div>
@@ -111,7 +109,7 @@ export default function Exams() {
           <div className="absolute top-16 left-20 group animate-float-reverse">
             <div className="bg-gradient-to-br from-slate-800/90 to-slate-900/90 backdrop-blur-xl rounded-2xl p-6 shadow-xl border border-amber-500/30 hover:border-amber-400/60 transition-all duration-500 hover:scale-110 hover:shadow-2xl hover:shadow-amber-500/25">
               <div className="text-xl font-bold text-amber-400 mb-2">CAMBRIDGE</div>
-              <div className="text-sm text-gray-300">Certificats d'Anglais</div>
+              <div className="text-sm text-gray-300">Certificats d&apos;Anglais</div>
               <div className="w-12 h-1 bg-gradient-to-r from-amber-500 to-amber-600 rounded-full mt-3"></div>
             </div>
           </div>

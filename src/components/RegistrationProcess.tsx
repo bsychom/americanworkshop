@@ -1,4 +1,4 @@
-import Image from 'next/image';
+
 import { useState, useEffect } from 'react';
 
 interface Step {
@@ -65,19 +65,19 @@ export default function RegistrationProcess() {
           <div className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-purple-500/10 to-cyan-500/10 backdrop-blur-xl rounded-full border border-purple-500/30 mb-8">
             <div className="w-3 h-3 bg-purple-400 rounded-full mr-3"></div>
             <span className="text-sm font-semibold text-purple-300 uppercase tracking-wide">
-              Processus d'inscription professionnel
+              Processus d&apos;inscription professionnel
             </span>
           </div>
 
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
             Votre Parcours vers
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400">
-              l'Excellence Linguistique
+              l&apos;Excellence Linguistique
             </span>
           </h2>
 
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Un processus d'inscription simplifié et professionnel, conçu pour les professionnels exigeants 
+            Un processus d&apos;inscription simplifié et professionnel, conçu pour les professionnels exigeants 
             qui souhaitent développer leurs compétences linguistiques.
           </p>
         </div>
@@ -152,7 +152,7 @@ export default function RegistrationProcess() {
                   </div>
                   <div className="text-center group hover:scale-105 transition-all duration-300 cursor-pointer">
                     <div className="text-2xl font-bold text-cyan-400 group-hover:text-cyan-300 transition-colors duration-300">15+</div>
-                    <div className="text-xs text-gray-400 group-hover:text-gray-300 transition-colors duration-300">Années d'expertise</div>
+                    <div className="text-xs text-gray-400 group-hover:text-gray-300 transition-colors duration-300">Années d&apos;expertise</div>
                   </div>
                   <div className="text-center group hover:scale-105 transition-all duration-300 cursor-pointer">
                     <div className="text-2xl font-bold text-purple-500 group-hover:text-purple-400 transition-colors duration-300">250+</div>

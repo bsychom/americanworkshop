@@ -35,7 +35,7 @@ export default function Footer() {
             <p className="text-slate-300 mb-6 leading-relaxed">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400 font-bold">
                 AMERICAN WORKSHOP
-              </span> est une institution d'enseignement de haut niveau dédiée à l'excellence en langue anglaise.
+              </span> est une institution d&apos;enseignement de haut niveau dédiée à l&apos;excellence en langue anglaise.
             </p>
             
             {/* CTA Button */}
@@ -198,7 +198,7 @@ export default function Footer() {
                 Politique de confidentialité
               </a>
               <a href="#" className="text-slate-400 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-purple-400 hover:to-pink-400 transition-all duration-300">
-                Conditions d'utilisation
+                Conditions d&apos;utilisation
               </a>
               <a href="#" className="text-slate-400 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-pink-400 hover:to-cyan-400 transition-all duration-300">
                 Mentions légales

@@ -40,7 +40,7 @@ export default function References() {
             </span>
             <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 text-4xl lg:text-5xl">
-              d'Excellence
+              d&apos;Excellence
             </span>
           </h2>
           

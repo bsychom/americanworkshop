@@ -111,7 +111,7 @@ export default function Formations() {
             </span>
             <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-slate-300 to-gray-300">
-              d'Excellence
+              d&apos;Excellence
             </span>
           </h2>          <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
             Programmes de formation professionnelle destinés aux adultes ambitieux, 

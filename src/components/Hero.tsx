@@ -1,16 +1,9 @@
 'use client'
-import { useEffect, useState } from 'react';
+
 import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Hero() {
-  const [scrollY, setScrollY] = useState(0);
-
-  useEffect(() => {
-    const handleScroll = () => setScrollY(window.scrollY);
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
 
   return (
     <section id="accueil" className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -46,19 +39,19 @@ export default function Hero() {
                   Maîtrisez
                 </span>
                 <span className="text-white ml-4">
-                  l'Anglais
+                  l&apos;Anglais
                 </span>
               </span>
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-pink-400 to-red-400 mt-2">
-                Aujourd'hui
+                Aujourd&apos;hui
               </span>
             </h1>
 
             {/* Subtitle */}
             <p className="text-xl lg:text-2xl text-gray-300 leading-relaxed max-w-2xl">
-              Transformez votre avenir avec nos méthodes d'apprentissage modernes. 
+              Transformez votre avenir avec nos méthodes d&apos;apprentissage modernes. 
               <span className="text-cyan-400 font-semibold"> Des cours interactifs </span> 
-              qui s'adaptent à votre rythme.
+              qui s&apos;adaptent à votre rythme.
             </p>
 
             {/* Stats Row */}
@@ -112,8 +105,8 @@ export default function Hero() {
                   <div className="w-16 h-16 mx-auto bg-gradient-to-r from-emerald-500 to-teal-600 rounded-2xl flex items-center justify-center text-2xl shadow-lg">
                     🏆
                   </div>
-                  <h3 className="text-2xl font-bold text-white">Prix d'Excellence</h3>
-                  <p className="text-gray-300">Meilleur Institut d'Anglais 2024</p>
+                  <h3 className="text-2xl font-bold text-white">Prix d&apos;Excellence</h3>
+                  <p className="text-gray-300">Meilleur Institut d&apos;Anglais 2024</p>
                 </div>
               </div>
 

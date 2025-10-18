@@ -62,12 +62,6 @@ export default function Contact() {
     }
   ];
 
-  const openingHours = {
-    weekdays: "Lun-Jeu: 09h00 – 18h00",
-    friday: "Vendredi: 09h00 – 12h00 / 14h00 – 18h00",
-    saturday: "Samedi: 09h00 – 18h00"
-  };
-
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({
@@ -118,7 +112,7 @@ export default function Contact() {
           </h2>
 
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Pour toute demande d'information n'hésitez pas à contacter le centre le plus proche de vous.
+            Pour toute demande d&apos;information n&apos;hésitez pas à contacter le centre le plus proche de vous.
           </p>
         </div>
 
@@ -228,7 +222,7 @@ export default function Contact() {
                   <span className="text-2xl">🕒</span>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-white">Horaires d'ouverture</h3>
+                  <h3 className="text-2xl font-bold text-white">Horaires d&apos;ouverture</h3>
                   <p className="text-gray-400">Nos centres vous accueillent</p>
                 </div>
               </div>
